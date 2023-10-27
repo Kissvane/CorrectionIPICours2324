@@ -1,0 +1,15 @@
+C:\Users\Utilisateur\source\repos\CorrectionExoIPI_2023_2024\bin\Debug\net7.0\CorrectionExoIPI_2023_2024.exe
+C:\Users\Utilisateur\source\repos\CorrectionExoIPI_2023_2024\bin\Debug\net7.0\CorrectionExoIPI_2023_2024.deps.json
+C:\Users\Utilisateur\source\repos\CorrectionExoIPI_2023_2024\bin\Debug\net7.0\CorrectionExoIPI_2023_2024.runtimeconfig.json
+C:\Users\Utilisateur\source\repos\CorrectionExoIPI_2023_2024\bin\Debug\net7.0\CorrectionExoIPI_2023_2024.dll
+C:\Users\Utilisateur\source\repos\CorrectionExoIPI_2023_2024\bin\Debug\net7.0\CorrectionExoIPI_2023_2024.pdb
+C:\Users\Utilisateur\source\repos\CorrectionExoIPI_2023_2024\obj\Debug\net7.0\CorrectionExoIPI_2023_2024.csproj.AssemblyReference.cache
+C:\Users\Utilisateur\source\repos\CorrectionExoIPI_2023_2024\obj\Debug\net7.0\CorrectionExoIPI_2023_2024.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utilisateur\source\repos\CorrectionExoIPI_2023_2024\obj\Debug\net7.0\CorrectionExoIPI_2023_2024.AssemblyInfoInputs.cache
+C:\Users\Utilisateur\source\repos\CorrectionExoIPI_2023_2024\obj\Debug\net7.0\CorrectionExoIPI_2023_2024.AssemblyInfo.cs
+C:\Users\Utilisateur\source\repos\CorrectionExoIPI_2023_2024\obj\Debug\net7.0\CorrectionExoIPI_2023_2024.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\source\repos\CorrectionExoIPI_2023_2024\obj\Debug\net7.0\CorrectionExoIPI_2023_2024.dll
+C:\Users\Utilisateur\source\repos\CorrectionExoIPI_2023_2024\obj\Debug\net7.0\refint\CorrectionExoIPI_2023_2024.dll
+C:\Users\Utilisateur\source\repos\CorrectionExoIPI_2023_2024\obj\Debug\net7.0\CorrectionExoIPI_2023_2024.pdb
+C:\Users\Utilisateur\source\repos\CorrectionExoIPI_2023_2024\obj\Debug\net7.0\CorrectionExoIPI_2023_2024.genruntimeconfig.cache
+C:\Users\Utilisateur\source\repos\CorrectionExoIPI_2023_2024\obj\Debug\net7.0\ref\CorrectionExoIPI_2023_2024.dll
