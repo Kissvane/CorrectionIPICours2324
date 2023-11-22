@@ -10,35 +10,13 @@ namespace CorrectionExoIPI_2023_2024
     {
         public void Exercice()
         {
-            int result = EnterANumber();
-            int divisionNumber = 0;
-            while(result > 1)
+            int i = 2;
+            Console.WriteLine(i);
+            while(i <= 21)
             {
-                result = result / 2;
-                divisionNumber++;
+                i += 3;
+                Console.WriteLine(i);
             }
-            Console.WriteLine($"Division number is {divisionNumber}");
-        }
-
-        int EnterANumber()
-        {
-            int number = 0;
-            bool numberEntered = false;
-            while (!numberEntered)
-            {
-                try
-                {
-                    numberEntered = true;
-                    Console.WriteLine("Rentrez un nombre");
-                    number = int.Parse(Console.ReadLine());
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine("Vous avez tapé autre chose qu'un nombre");
-                    numberEntered = false;
-                }
-            }
-            return number;
         }
     }
 }

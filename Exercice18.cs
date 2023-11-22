@@ -8,24 +8,22 @@ namespace CorrectionExoIPI_2023_2024
 {
     internal class Exercice18
     {
-        public void Exercice(int[] array, int[] array2, int index)
+        public void Exercice(int[] array)
         {
-            int[] result = new int[array.Length+array2.Length];
-            for (int i = 0; i < result.Length; i++)
+            for (int i = 0; i < array.Length; i++)
             {
-                if(i < index)
+                Console.WriteLine(array[i]);
+            }
+
+            Console.WriteLine("------------------------");
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i]%2 == 0)
                 {
-                    result[i] = array[i];
+                    array[i] = i;
                 }
-                else if (i < index + array2.Length)
-                {
-                    result[i] = array2[i-index];
-                }
-                else
-                {
-                    result[i] = array[i - array2.Length];
-                }
-                Console.WriteLine(result[i]);
+                Console.WriteLine(array[i]);
             }
         }
     }

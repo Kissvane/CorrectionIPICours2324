@@ -10,16 +10,24 @@ namespace CorrectionExoIPI_2023_2024
     {
         public void Exercice()
         {
-            int[] array = new int[9];
-            for (int i = 0; i < array.Length; i++)
+            int result = 0;
+            string input = Console.ReadLine();
+            while (IsNumber(input))
             {
-                array[i] = 5+i;
-                if (i == 2)
-                {
-                    array[2] = 111;
-                }
-                Console.WriteLine(array[i]);
+                result += int.Parse(input);
+                input = Console.ReadLine();
             }
+
+            Console.WriteLine(result);
+        }
+
+        bool IsNumber(string input)
+        {
+            foreach (char c in input)
+            {
+                if(!char.IsDigit(c)) return false;
+            }
+            return true;
         }
     }
 }

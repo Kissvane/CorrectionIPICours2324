@@ -8,22 +8,26 @@ namespace CorrectionExoIPI_2023_2024
 {
     internal class Exercice19
     {
-        public void Exercice()
+        public void Exercice(int[] array1, int[] array2)
         {
-            Console.WriteLine("Entrez un mot");
-            string input = Console.ReadLine();
-            char[] array = input.ToCharArray();
-            StringBuilder stringBuilder = new StringBuilder();
-            StringBuilder stringBuilder2 = new StringBuilder();
-            for(int i = 0; i < array.Length; i++)
+            int[] result = new int[array1.Length+array2.Length];
+            int index = 0;
+            for (int i = 0; i < Math.Max(array1.Length, array2.Length); i++)
             {
-                stringBuilder.Append(array[i]);
-                stringBuilder.Append('.');
-                stringBuilder2.Append(array[array.Length-i-1]);
+                if (array1.Length > i)
+                {
+                    result[index] = array1[i];
+                    Console.WriteLine(result[index]);
+                    index++;
+                }
+
+                if (array2.Length > i)
+                {
+                    result[index] = array2[i];
+                    Console.WriteLine(result[index]);
+                    index++;
+                }
             }
-            stringBuilder.Remove(stringBuilder.Length - 1,1);
-            Console.WriteLine(stringBuilder.ToString());
-            Console.WriteLine(stringBuilder2.ToString());
         }
     }
 }

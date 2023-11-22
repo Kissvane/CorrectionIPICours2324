@@ -8,25 +8,17 @@ namespace CorrectionExoIPI_2023_2024
 {
     internal class Exercice17
     {
-        public void Exercice(int[] array1, int[] array2)
+        public void Exercice()
         {
-            int[] result = new int[array1.Length+array2.Length];
-            int index = 0;
-            for (int i = 0; i < Math.Max(array1.Length, array2.Length); i++)
+            int[] array = new int[9];
+            for (int i = 0; i < array.Length; i++)
             {
-                if (array1.Length > i)
+                array[i] = 5+i;
+                if (i == 2)
                 {
-                    result[index] = array1[i];
-                    Console.WriteLine(result[index]);
-                    index++;
+                    array[2] = 111;
                 }
-
-                if (array2.Length > i)
-                {
-                    result[index] = array2[i];
-                    Console.WriteLine(result[index]);
-                    index++;
-                }
+                Console.WriteLine(array[i]);
             }
         }
     }

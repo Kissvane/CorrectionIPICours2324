@@ -8,23 +8,37 @@ namespace CorrectionExoIPI_2023_2024
 {
     internal class Exercice16
     {
-        public void Exercice(int[] array)
+        public void Exercice()
         {
-            for (int i = 0; i < array.Length; i++)
+            int result = EnterANumber();
+            int divisionNumber = 0;
+            while(result > 1)
             {
-                Console.WriteLine(array[i]);
+                result = result / 2;
+                divisionNumber++;
             }
+            Console.WriteLine($"Division number is {divisionNumber}");
+        }
 
-            Console.WriteLine("------------------------");
-
-            for (int i = 0; i < array.Length; i++)
+        int EnterANumber()
+        {
+            int number = 0;
+            bool numberEntered = false;
+            while (!numberEntered)
             {
-                if (array[i]%2 == 0)
+                try
                 {
-                    array[i] = i;
+                    numberEntered = true;
+                    Console.WriteLine("Rentrez un nombre");
+                    number = int.Parse(Console.ReadLine());
                 }
-                Console.WriteLine(array[i]);
+                catch (Exception e)
+                {
+                    Console.WriteLine("Vous avez tapé autre chose qu'un nombre");
+                    numberEntered = false;
+                }
             }
+            return number;
         }
     }
 }
