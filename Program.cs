@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            new Exercice3().Exercice();
+            Exercice10 exe = new Exercice10();
+            exe.Exercice();
         }
     }
 }
