@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utilisateur\\source\\repos\\CorrectionExoIPI_2023_2024\\CorrectionExoIPI_2023_2024.csproj": {}
+    "E:\\ForkProjects\\CorrectionIPICours2324\\CorrectionExoIPI_2023_2024.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utilisateur\\source\\repos\\CorrectionExoIPI_2023_2024\\CorrectionExoIPI_2023_2024.csproj": {
+    "E:\\ForkProjects\\CorrectionIPICours2324\\CorrectionExoIPI_2023_2024.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\source\\repos\\CorrectionExoIPI_2023_2024\\CorrectionExoIPI_2023_2024.csproj",
+        "projectUniqueName": "E:\\ForkProjects\\CorrectionIPICours2324\\CorrectionExoIPI_2023_2024.csproj",
         "projectName": "CorrectionExoIPI_2023_2024",
-        "projectPath": "C:\\Users\\Utilisateur\\source\\repos\\CorrectionExoIPI_2023_2024\\CorrectionExoIPI_2023_2024.csproj",
-        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\source\\repos\\CorrectionExoIPI_2023_2024\\obj\\",
+        "projectPath": "E:\\ForkProjects\\CorrectionIPICours2324\\CorrectionExoIPI_2023_2024.csproj",
+        "packagesPath": "C:\\Users\\adrie\\.nuget\\packages\\",
+        "outputPath": "E:\\ForkProjects\\CorrectionIPICours2324\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adrie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
